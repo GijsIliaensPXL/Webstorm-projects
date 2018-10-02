@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+p {
+    padding: 20px;
+    background-color: darkgray;
+    color: white;
+}
+
+.highlight {
+    color: yellow;
+    border: 2px solid yellow;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: darkgreen;
+}
