@@ -1,0 +1,22 @@
+body {
+    background-color: #151c28;
+    color: #ffe14f;
+    margin: 10px auto;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid 1px #ffe14f;
+    width: 30%;
+    border-radius: 5px;
+}
+
+section:hover {
+    background-color: #8daec6;
+}
