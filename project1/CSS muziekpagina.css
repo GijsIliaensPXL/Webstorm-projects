@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: url("Afbeeldingen/maxresdefault.jpg") no-repeat fixed;
+    background: url("Afbeeldingen/wallpaper 2.0.jpg") no-repeat fixed;
     background-size: cover;
     color: white;
 }
@@ -75,7 +75,11 @@ ul {
     background-color: lightgray;
 }
 
-
+#Festivals {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
 
 
 
