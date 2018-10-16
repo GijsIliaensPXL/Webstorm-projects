@@ -1,0 +1,37 @@
+body {
+    font-family: Calibri;
+    background-color: #c7ced8;
+    color: white;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border: solid 2px black;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+tr th {
+    background-color: #27426d;
+    text-align: center;
+}
+
+tr:nth-child(n) {
+    background-color: #4f8cef;
+}
+
+tr:nth-child(2n) {
+    background-color: #6facff;
+}
+
+tr:nth-child(2), tr:nth-child(3) {
+    background-color: #27426d;
+}
+
+tr th, tr td {padding: 5px;}
+
