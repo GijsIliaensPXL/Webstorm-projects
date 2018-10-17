@@ -1,0 +1,50 @@
+body {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/hout.jpg");
+}
+
+table {
+    float: left;
+    width: 800px;
+    height: 800px;
+    border: solid 5px darkred;
+    border-collapse: collapse;
+    margin: 2em;
+    empty-cells: show;
+}
+
+td {
+    border: solid 2px darkred;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+tr {
+    height: 10%;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/witte-marmer.jpg");
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/witte-marmer.jpg");
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/zwarte-marmer.jpg");
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/zwarte-marmer.jpg");
+}
+
+section {
+    margin: 2em;
+    padding-left: 1em;
+    width: 500px;
+    height: 800px;
+    float: right;
+    border: solid 5px darkred;
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/witte-marmer.jpg");
+}

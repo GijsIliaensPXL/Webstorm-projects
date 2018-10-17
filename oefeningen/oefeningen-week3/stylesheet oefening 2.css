@@ -1,0 +1,31 @@
+body {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/hout.jpg");
+}
+
+table {
+    width: 800px;
+    height: 800px;
+    border: solid 5px darkred;
+    border-collapse: collapse;
+    margin: 2em;
+    empty-cells: show;
+}
+
+td {
+    border: solid 2px darkred;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+tr {
+    height: 10%;
+}
+
+.wit {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/witte-marmer.jpg");
+}
+
+.zwart {
+    background-image: url("assets week 3/bestanden_oefeningen_week3/Images/zwarte-marmer.jpg");
+}

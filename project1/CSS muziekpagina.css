@@ -3,6 +3,7 @@ body {
     background: url("Afbeeldingen/wallpaper 2.0.jpg") no-repeat fixed;
     background-size: cover;
     color: white;
+    padding: 1em;
 }
 
 @font-face {
@@ -11,20 +12,24 @@ body {
 }
 
 h1 {
+    margin: 1em;
     color: beige;
     font-family: 'Lobster', cursive;
 }
 
 h2 {
     font-family: 'Lobster', cursive;
+    margin: 1em;
 }
 
 h3 {
     font-family: 'Lobster', cursive;
+    margin: 1em;
 }
 
 a {
     color: white;
+    margin: 1em;
 }
 
 a:hover {
@@ -81,9 +86,22 @@ ul {
     margin: 0 auto;
 }
 
+table {
+    margin: 1em auto;
+    width: 75%;
+    border: solid 3px goldenrod;
+    border-collapse: collapse;
+    background-color: rgba(47, 79, 79, 0.6);
+}
 
+th, td {
+    border: solid 2px goldenrod;
+    text-align: center;
+}
 
-
+tr td:first-child {
+    width: 30%;
+}
 
 
 

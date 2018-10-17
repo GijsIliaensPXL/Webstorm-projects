@@ -1,0 +1,10 @@
+table {
+    margin: auto;
+    width: 75%;
+    border: solid 3px goldenrod;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px goldenrod;
+}
